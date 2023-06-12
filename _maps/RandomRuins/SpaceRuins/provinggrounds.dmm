@@ -1946,7 +1946,8 @@
 "Yr" = (
 /obj/structure/chair/comfy/shuttle,
 /mob/living/simple_animal/hostile/syndicate/mecha_pilot/no_mech/nanotrasen{
-	name = "BLUFOR Pilot"
+	name = "BLUFOR Pilot";
+	faction = list("Deathsquad")
 	},
 /turf/open/floor/mineral/titanium/blue,
 /area/ruin/space/has_grav/syndicircle/escape)
