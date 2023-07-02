@@ -29,6 +29,32 @@
 	icon_state = "blackwizard"
 	dog_fashion = null
 
+/obj/item/clothing/head/wizard/cosplay
+	name = "blue cosplay wizard hat" //cosmetic use only - we dont even have antags
+	desc = "A conical and cheap looking wizard hat used for imitating a real wizard. Contains 0% real magic."
+	gas_transfer_coefficient = 1 // NOT MAGICAL, I REPEAT, NOT MAGICAL!
+	permeability_coefficient = 1
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
+	strip_delay = 40
+	equip_delay_other = 20
+	resistance_flags = FLAMMABLE
+
+/obj/item/clothing/head/wizard/cosplay/red
+	name = "red cosplay wizard hat"
+	icon_state = "redwizard"
+	dog_fashion = /datum/dog_fashion/head/red_wizard
+
+/obj/item/clothing/head/wizard/cosplay/yellow
+	name = "yellow cosplay wizard hat"
+	icon_state = "yellowwizard"
+	dog_fashion = null
+
+/obj/item/clothing/head/wizard/cosplay/black
+	name = "black cosplay wizard hat"
+	desc = "A conical and cheap looking wizard hat used for imitating a real shadow wizard. Contains 0% real magic." //shadow wizard money gang
+	icon_state = "blackwizard"
+	dog_fashion = null
+
 /obj/item/clothing/head/wizard/fake
 	name = "wizard hat"
 	desc = "It has WIZZARD written across it in sequins. Comes with a cool beard."
