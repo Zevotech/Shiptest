@@ -403,6 +403,11 @@
 		return heal_carbon(M, user)
 	to_chat(user, "<span class='warning'>You can't splint [M]'s limb' with the \the [src]!</span>")
 
+/obj/item/stack/medical/splint/cyborg
+	custom_materials = null
+	is_cyborg = 1
+	cost = 500
+
 /obj/item/stack/medical/splint/ghetto //slightly shittier, but gets the job done
 	name = "makeshift splints"
 	desc = "Used to secure limbs following a fracture. This one is made out of simple materials."
