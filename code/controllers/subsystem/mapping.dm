@@ -230,7 +230,7 @@ SUBSYSTEM_DEF(mapping)
 				if(isnull(job_outfit))
 					stack_trace("Invalid job outfit! [value["outfit"]] on [S.name]'s config! Defaulting to assistant clothing.")
 					job_outfit = /datum/outfit/job/assistant
-				job_slot = new /datum/job(job, job_outfit)
+				job_slot = new /datum/job(job, job_outfit, S.prefix)
 				job_slot.wiki_page = value["wiki_page"]
 				job_slot.officer = value["officer"]
 				slots = value["slots"]

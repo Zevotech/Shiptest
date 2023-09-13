@@ -277,7 +277,7 @@
 			return TRUE
 
 		if("addJobSlot")
-			job_slots[new /datum/job] = 0
+			job_slots[new /datum/job(new_faction = prefix)] = 0
 			update_static_data(usr, ui)
 			return TRUE
 
