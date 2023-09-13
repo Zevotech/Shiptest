@@ -38,27 +38,14 @@
 	///Levels unlocked at roundstart in physiology
 	var/list/roundstart_experience
 
-//Corresponds to the ships faction
-var/faction = SHIP_TAG_INDEPENDENT
+	//Corresponds to the ships faction
+	var/faction = SHIP_TAG_INDEPENDENT
 
-#DEFINE SHIP_TAG_INDEPENDENT "ISV"
-#DEFINE SHIP_TAG_INDEPENDENT "SV"
-#DEFINE SHIP_TAG_INDEPENDENT "IMV"
-#DEFINE SHIP_TAG_NANOTRASEN "NTSV"
-#DEFINE SHIP_TAG_SYNDICATE "SSV"
-#DEFINE SHIP_TAG_SYNDICATE "SEV"
-#DEFINE SHIP_TAG_SOLGOV "SGSV"
-#DEFINE SHIP_TAG_MINUTEMEN "CMSV"
-#DEFINE SHIP_TAG_MINUTEMEN "CMGSV"
-#DEFINE SHIP_TAG_INTEQ "IRMV"
-#DEFINE SHIP_TAG_SRM "SRSV"
-
-
-/datum/job/New(new_name, datum/outfit/new_outfit)
+/datum/job/New(new_name, datum/outfit/new_outfit, new_faction)
 	if(new_name)
 		name = new_name
 		outfit = new_outfit
-		faction = new_faction
+	faction = new_faction
 
 //Only override this proc
 //H is usually a human unless an /equip override transformed it
@@ -149,10 +136,12 @@ var/faction = SHIP_TAG_INDEPENDENT
 
 	//Equip the rest of the gear
 	H.dna.species.before_equip_job(src, H, visualsOnly)
-
+// this should probably be moved out into datum/job/equip
 	if(outfit_override || outfit)
 		H.equipOutfit(outfit_override ? outfit_override : outfit, visualsOnly, preference_source)
-
+		var/obj/item/card/id/idcard = H.get_idcard()
+		idcard.faction = faction
+		H.sec_hud_set_ID()
 	H.dna.species.after_equip_job(src, H, visualsOnly)
 
 /datum/job/proc/get_access()
@@ -287,7 +276,6 @@ var/faction = SHIP_TAG_INDEPENDENT
 
 	var/obj/item/card/id/C = H.wear_id
 	if(istype(C))
-		C.faction = faction
 		C.access = J.get_access()
 		shuffle_inplace(C.access) // Shuffle access list to make NTNet passkeys less predictable
 		C.registered_name = H.real_name
