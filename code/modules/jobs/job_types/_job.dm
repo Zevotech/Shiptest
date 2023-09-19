@@ -136,9 +136,6 @@
 // this should probably be moved out into datum/job/equip
 	if(outfit_override || outfit)
 		H.equipOutfit(outfit_override ? outfit_override : outfit, visualsOnly, preference_source)
-		var/obj/item/card/id/idcard = H.get_idcard()
-		idcard.faction = faction
-		H.sec_hud_set_ID()
 	H.dna.species.after_equip_job(src, H, visualsOnly)
 
 /datum/job/proc/get_access()
@@ -273,8 +270,8 @@
 
 	var/obj/item/card/id/C = H.wear_id
 	if(istype(C))
+		C.faction = J.faction
 		C.access = J.get_access()
-		C.faction = J.faction()
 		shuffle_inplace(C.access) // Shuffle access list to make NTNet passkeys less predictable
 		C.registered_name = H.real_name
 		if(H.job)
