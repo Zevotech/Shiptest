@@ -37,7 +37,6 @@
 		name = new_name
 		outfit = new_outfit
 		faction = new_faction
-		
 		register()
 
 /datum/job/proc/register()
