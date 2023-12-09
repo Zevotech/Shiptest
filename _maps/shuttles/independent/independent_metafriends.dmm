@@ -716,13 +716,14 @@
 /turf/open/floor/plasteel/telecomms_floor,
 /area/ship/bridge)
 "fu" = (
-/obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "Outer";
 	name = "window shutters"
 	},
 /obj/machinery/door/firedoor/window,
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
 /turf/open/floor/plating,
 /area/ship/engineering)
 "fw" = (
@@ -761,7 +762,8 @@
 /obj/machinery/atmospherics/pipe/simple/purple/hidden{
 	dir = 4
 	},
-/obj/effect/spawner/structure/window/plasma/reinforced,
+/obj/structure/window/plasma/reinforced/fulltile,
+/obj/structure/grille,
 /turf/open/floor/plating,
 /area/ship/engineering)
 "fB" = (
@@ -802,12 +804,13 @@
 /turf/open/floor/plating,
 /area/ship/maintenance/starboard)
 "fY" = (
-/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/grille,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "Outer";
 	name = "window shutters"
 	},
 /obj/machinery/door/firedoor/window,
+/obj/structure/window/reinforced/fulltile,
 /turf/open/floor/plating,
 /area/ship/cargo)
 "gb" = (
@@ -1078,8 +1081,9 @@
 /turf/open/floor/carpet/blue,
 /area/ship/medical)
 "hH" = (
-/obj/effect/spawner/structure/window,
 /obj/machinery/door/firedoor,
+/obj/structure/grille,
+/obj/structure/window/fulltile,
 /turf/open/floor/plating,
 /area/ship/bridge)
 "hI" = (
@@ -1406,8 +1410,9 @@
 /turf/open/floor/plasteel/patterned/grid,
 /area/ship/hallway/central)
 "kw" = (
-/obj/effect/spawner/structure/window,
 /obj/machinery/door/firedoor,
+/obj/structure/grille,
+/obj/structure/window/fulltile,
 /turf/open/floor/plating,
 /area/ship/crew/canteen/kitchen)
 "kz" = (
@@ -1732,13 +1737,14 @@
 /turf/open/floor/plating,
 /area/ship/hallway/fore)
 "oA" = (
-/obj/effect/spawner/structure/window/plasma/reinforced,
+/obj/structure/window/plasma/reinforced/fulltile,
 /obj/structure/disposalpipe/segment{
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/violet/hidden{
 	dir = 4
 	},
+/obj/structure/grille,
 /turf/open/floor/plating,
 /area/ship/engineering)
 "oH" = (
@@ -1962,7 +1968,9 @@
 /turf/closed/wall,
 /area/ship/engineering)
 "pE" = (
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	dir = 8
+	},
 /obj/machinery/atmospherics/pipe/layer_manifold{
 	dir = 4
 	},
@@ -2120,7 +2128,6 @@
 /turf/open/floor/plasteel/white,
 /area/ship/science)
 "qO" = (
-/obj/effect/spawner/lootdrop/two_percent_xeno_egg_spawner,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ship/maintenance/starboard)
@@ -2193,12 +2200,13 @@
 /turf/open/floor/plating,
 /area/ship/engineering)
 "rC" = (
-/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/grille,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "Outer";
 	name = "window shutters"
 	},
 /obj/machinery/door/firedoor/window,
+/obj/structure/window/reinforced/fulltile,
 /turf/open/floor/plating,
 /area/ship/medical)
 "rE" = (
@@ -2434,12 +2442,13 @@
 /turf/open/floor/plasteel/tech,
 /area/ship/security/armory)
 "td" = (
-/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/grille,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "Outer";
 	name = "window shutters"
 	},
 /obj/machinery/door/firedoor/window,
+/obj/structure/window/reinforced/fulltile,
 /turf/open/floor/plating,
 /area/ship/bridge)
 "te" = (
@@ -2456,7 +2465,8 @@
 /turf/open/floor/plating,
 /area/ship/engineering)
 "tf" = (
-/obj/effect/spawner/structure/window/plasma/reinforced,
+/obj/structure/window/plasma/reinforced/fulltile,
+/obj/structure/grille,
 /turf/open/floor/plating,
 /area/ship/engineering)
 "tg" = (
@@ -3417,8 +3427,9 @@
 /turf/open/floor/plasteel/patterned/cargo_one,
 /area/ship/cargo)
 "Bq" = (
-/obj/effect/spawner/structure/window,
 /obj/machinery/door/firedoor,
+/obj/structure/window/fulltile,
+/obj/structure/grille,
 /turf/open/floor/plating,
 /area/ship/cargo)
 "Br" = (
@@ -3620,7 +3631,9 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/storage)
 "CK" = (
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	dir = 4
+	},
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
@@ -4824,6 +4837,16 @@
 "KS" = (
 /turf/closed/wall/r_wall,
 /area/ship/bridge)
+"Lp" = (
+/obj/structure/grille,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "Outer";
+	name = "window shutters"
+	},
+/obj/machinery/door/firedoor/window,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating,
+/area/ship/maintenance/starboard)
 "Lv" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 4
@@ -5041,12 +5064,13 @@
 /turf/open/floor/plating,
 /area/ship/external)
 "Nb" = (
-/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/grille,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "Outer";
 	name = "window shutters"
 	},
 /obj/machinery/door/firedoor/window,
+/obj/structure/window/reinforced/fulltile,
 /turf/open/floor/plating,
 /area/ship/engineering)
 "Nd" = (
@@ -5302,12 +5326,13 @@
 /turf/open/floor/plasteel/white,
 /area/ship/crew/toilet)
 "OX" = (
-/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/grille,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "Outer";
 	name = "window shutters"
 	},
 /obj/machinery/door/firedoor/window,
+/obj/structure/window/reinforced/fulltile,
 /turf/open/floor/plating,
 /area/ship/science)
 "Pc" = (
@@ -5913,8 +5938,9 @@
 /turf/closed/wall/r_wall,
 /area/ship/security/armory)
 "TY" = (
-/obj/effect/spawner/structure/window,
 /obj/machinery/door/firedoor,
+/obj/structure/window/fulltile,
+/obj/structure/grille,
 /turf/open/floor/plating,
 /area/ship/crew/canteen)
 "TZ" = (
@@ -5947,13 +5973,14 @@
 /turf/open/floor/plating,
 /area/ship/external)
 "Uf" = (
-/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/grille,
 /obj/machinery/door/firedoor/window,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "Outer";
 	name = "window shutters";
 	dir = 4
 	},
+/obj/structure/window/reinforced/fulltile,
 /turf/open/floor/plating,
 /area/ship/bridge)
 "Uh" = (
@@ -6153,13 +6180,14 @@
 /turf/open/floor/plasteel/patterned,
 /area/ship/cargo)
 "VC" = (
-/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/grille,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "Outer";
 	name = "window shutters";
 	dir = 4
 	},
 /obj/machinery/door/firedoor/window,
+/obj/structure/window/reinforced/fulltile,
 /turf/open/floor/plating,
 /area/ship/bridge)
 "VN" = (
@@ -6637,10 +6665,8 @@
 /area/ship/crew)
 "Ye" = (
 /obj/effect/turf_decal/box,
-/mob/living/simple_animal/hostile/facehugger,
 /obj/effect/spawner/lootdrop/maintenance/four,
 /obj/effect/spawner/lootdrop/stockparts,
-/obj/item/organ/zombie_infection,
 /obj/effect/spawner/lootdrop/salvage_scanning,
 /obj/effect/spawner/lootdrop/salvage_matter_bin,
 /obj/effect/spawner/lootdrop/salvage_manipulator,
@@ -7447,7 +7473,7 @@ ss
 ss
 lo
 lD
-gN
+Lp
 "}
 (22,1,1) = {"
 HM
@@ -7663,7 +7689,7 @@ XK
 Xv
 Gs
 aY
-gN
+Lp
 "}
 (31,1,1) = {"
 Xd
@@ -7735,7 +7761,7 @@ TU
 pi
 mR
 zL
-gN
+Lp
 "}
 (34,1,1) = {"
 ET

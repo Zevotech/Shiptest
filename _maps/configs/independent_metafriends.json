@@ -1,0 +1,55 @@
+{
+	"$schema": "https://raw.githubusercontent.com/shiptest-ss13/Shiptest/master/_maps/ship_config_schema.json",
+	"map_name": "Metafriend-class Anything Vessel",
+	"prefix": "ISV",
+	"map_short_name": "Metafriend-class",
+	"description": "This ship has everything and does anything. Not intended for shiptest main, just for fun.",
+	"tags": [
+		"Everything"
+	],
+	"namelists": [
+		"GENERAL",
+		"SPACE",
+		"HISTORICAL"
+	],
+	"map_path": "_maps/shuttles/independent/independent_metafriends.dmm",
+	"job_slots": {
+		"Command Specialist": {
+			"outfit": "/datum/outfit/job/captain",
+			"slots": 1
+		},
+		"Security Specialist": {
+			"outfit": "/datum/outfit/job/security",
+			"slots": 2
+		},
+		"Cargo Specialist": {
+			"outfit": "/datum/outfit/job/quartermaster",
+			"slots": 1
+		},
+		"Medical Specialist": {
+			"outfit": "/datum/outfit/job/doctor",
+			"slots": 1
+		},
+		"Research Specialist": {
+			"outfit": "/datum/outfit/job/scientist",
+			"slots": 1
+		},
+		"Engineering Specialist": {
+			"outfit": "/datum/outfit/job/engineer",
+			"slots": 1
+		},
+		"Mining Specialist": {
+			"outfit": "/datum/outfit/job/miner",
+			"slots": 1
+		},
+		"Service Specialist": {
+			"outfit": "/datum/outfit/job/bartender",
+			"slots": 1
+		},
+		"Assistant": {
+			"outfit": "/datum/outfit/job/assistant",
+			"slots": 2
+		}
+	},
+	"enabled": true
+}
