@@ -269,33 +269,6 @@
 	shoes = /obj/item/clothing/shoes/sandal/marisa
 	head = /obj/item/clothing/head/wizard/marisa
 
-/datum/outfit/centcom/soviet
-	name = "Soviet Admiral"
-
-	uniform = /obj/item/clothing/under/costume/soviet
-	head = /obj/item/clothing/head/pirate/captain
-	shoes = /obj/item/clothing/shoes/combat
-	gloves = /obj/item/clothing/gloves/tackler/combat/insulated
-	ears = /obj/item/radio/headset/headset_cent
-	glasses = /obj/item/clothing/glasses/thermal/eyepatch
-	suit = /obj/item/clothing/suit/pirate/captain
-	back = /obj/item/storage/backpack/satchel/leather
-	belt = /obj/item/gun/ballistic/revolver/mateba
-
-	id = /obj/item/card/id/centcom
-
-/datum/outfit/centcom/soviet/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
-	if(visualsOnly)
-		return
-
-	var/obj/item/card/id/W = H.wear_id
-	W.access = get_all_accesses()
-	W.access += get_centcom_access("Admiral")
-	W.assignment = "Admiral"
-	W.registered_name = H.real_name
-	W.update_label()
-	..()
-
 /datum/outfit/mobster
 	name = "Mobster"
 
@@ -408,35 +381,6 @@
 	var/obj/item/card/id/W = H.wear_id
 	W.registered_name = H.real_name
 	W.update_label()
-
-/datum/outfit/job/lieutenant
-	name = "Lieutenant"
-	job_icon = "lieutenant"
-	//jobtype = /datum/job/lieutenant
-
-	id = /obj/item/card/id/silver
-	head = /obj/item/clothing/head/beret/lt
-	uniform = /obj/item/clothing/under/rank/command/lieutenant
-	alt_uniform = /obj/item/clothing/under/rank/command
-	suit = /obj/item/clothing/suit/toggle/lieutenant
-	alt_suit = /obj/item/clothing/suit/armor/lieutenant_trenchcoat
-	dcoat = /obj/item/clothing/suit/hooded/wintercoat/captain
-	gloves = /obj/item/clothing/gloves/combat
-	shoes = /obj/item/clothing/shoes/jackboots
-	ears = /obj/item/radio/headset/heads/lieutenant/alt
-	glasses = /obj/item/clothing/glasses/hud/health/sunglasses
-	belt = /obj/item/pda/lieutenant
-
-	implants = list(/obj/item/implant/mindshield)
-
-	backpack = /obj/item/storage/backpack/security
-	satchel = /obj/item/storage/backpack/satchel/sec
-	duffelbag = /obj/item/storage/backpack/duffelbag/sec
-	courierbag = /obj/item/storage/backpack/messenger/sec
-
-	backpack_contents = list(
-		/obj/item/gun/energy/e_gun/adv_stopping = 1
-		)
 
 /datum/outfit/job/hos/inteq_honorable
 	name = "Inteq Honorable vanguard"

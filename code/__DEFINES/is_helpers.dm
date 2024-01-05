@@ -4,6 +4,8 @@
 
 #define isatom(A) (isloc(A))
 
+#define isdatum(thing) (istype(thing, /datum))
+
 #define isweakref(D) (istype(D, /datum/weakref))
 
 //Turfs
@@ -59,7 +61,6 @@ GLOBAL_LIST_INIT(turfs_without_ground, typecacheof(list(
 #define isandroid(A) (is_species(A, /datum/species/android))
 #define issynth(A) (is_species(A, /datum/species/synth))
 #define ismilsynth(A) (is_species(A, /datum/species/synth/military))
-#define isgolem(A) (is_species(A, /datum/species/golem))
 #define islizard(A) (is_species(A, /datum/species/lizard))
 #define isplasmaman(A) (is_species(A, /datum/species/plasmaman))
 #define ispodperson(A) (is_species(A, /datum/species/pod))
