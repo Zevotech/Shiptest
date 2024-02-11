@@ -53,9 +53,10 @@
 	},
 /area/hangar)
 "at" = (
-/obj/machinery/atmospherics/components/unary/passive_vent{
-	dir = 1
+/obj/machinery/conveyor{
+	dir = 9
 	},
+/obj/structure/window/reinforced,
 /turf/open/floor/plasteel{
 	planetary_atmos = 1
 	},
@@ -173,13 +174,92 @@
 	planetary_atmos = 1
 	},
 /area/hangar)
+"eF" = (
+/obj/machinery/conveyor{
+	dir = 8
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"fx" = (
+/obj/machinery/conveyor/inverted{
+	dir = 5
+	},
+/obj/structure/plasticflaps/opaque,
+/turf/open/floor/plating{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"pk" = (
+/obj/machinery/conveyor{
+	dir = 8
+	},
+/obj/structure/plasticflaps/opaque,
+/turf/open/floor/plating{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"rQ" = (
+/obj/machinery/conveyor{
+	dir = 4
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"ym" = (
+/obj/machinery/conveyor{
+	dir = 1
+	},
+/obj/item/supplypod_beacon,
+/turf/open/floor/plating{
+	planetary_atmos = 1
+	},
+/area/hangar)
 "MN" = (
-/obj/machinery/atmospherics/pipe/simple/general,
-/turf/closed/indestructible/reinforced,
+/obj/machinery/conveyor_switch/oneway,
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"NO" = (
+/obj/machinery/conveyor{
+	dir = 6
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"OV" = (
+/obj/machinery/conveyor{
+	dir = 5
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
 /area/hangar)
 "Qi" = (
 /obj/effect/landmark/outpost/elevator,
 /turf/open/floor/plasteel/elevatorshaft{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"TG" = (
+/obj/machinery/conveyor{
+	dir = 10
+	},
+/obj/structure/window/reinforced,
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"ZN" = (
+/obj/machinery/conveyor/inverted{
+	dir = 6
+	},
+/obj/structure/plasticflaps/opaque,
+/turf/open/floor/plating{
 	planetary_atmos = 1
 	},
 /area/hangar)
@@ -2942,8 +3022,8 @@ aH
 "}
 (53,1,1) = {"
 aV
-aV
-aV
+aH
+aH
 aH
 aN
 aN
@@ -2995,9 +3075,9 @@ aH
 "}
 (54,1,1) = {"
 aV
-aV
-aV
 aH
+OV
+at
 aN
 aN
 aP
@@ -3048,9 +3128,9 @@ aH
 "}
 (55,1,1) = {"
 aV
-aV
-aV
 aH
+rQ
+eF
 aN
 aN
 aP
@@ -3100,10 +3180,10 @@ aN
 aH
 "}
 (56,1,1) = {"
-aV
-aV
-aV
 aH
+aH
+rQ
+eF
 aN
 aN
 aP
@@ -3153,11 +3233,11 @@ aN
 aH
 "}
 (57,1,1) = {"
-aV
-aV
-aV
 aH
-aN
+fx
+NO
+TG
+MN
 aD
 aP
 aE
@@ -3206,9 +3286,9 @@ aN
 aH
 "}
 (58,1,1) = {"
-aV
-aV
-aV
+aH
+pk
+aH
 aH
 aN
 aN
@@ -3259,11 +3339,11 @@ aN
 aH
 "}
 (59,1,1) = {"
-aV
-aV
-aV
-MN
-at
+aH
+ZN
+ym
+aH
+aN
 aN
 am
 aM

@@ -78,9 +78,10 @@
 	},
 /area/hangar)
 "ay" = (
-/obj/machinery/atmospherics/components/unary/passive_vent{
-	dir = 1
+/obj/machinery/conveyor{
+	dir = 9
 	},
+/obj/structure/window/reinforced,
 /turf/open/floor/plasteel{
 	planetary_atmos = 1
 	},
@@ -173,14 +174,93 @@
 	planetary_atmos = 1
 	},
 /area/hangar)
+"ki" = (
+/obj/machinery/conveyor{
+	dir = 4
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"lx" = (
+/obj/machinery/conveyor/inverted{
+	dir = 6
+	},
+/obj/structure/plasticflaps/opaque,
+/turf/open/floor/plating{
+	planetary_atmos = 1
+	},
+/area/hangar)
 "mX" = (
 /turf/open/floor/plasteel/elevatorshaft{
 	planetary_atmos = 1
 	},
 /area/hangar)
 "vM" = (
-/obj/machinery/atmospherics/pipe/simple/general,
-/turf/closed/indestructible/reinforced,
+/obj/machinery/conveyor_switch/oneway,
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"zK" = (
+/obj/machinery/conveyor{
+	dir = 8
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Bg" = (
+/obj/machinery/conveyor/inverted{
+	dir = 5
+	},
+/obj/structure/plasticflaps/opaque,
+/turf/open/floor/plating{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"GK" = (
+/obj/machinery/conveyor{
+	dir = 8
+	},
+/obj/structure/plasticflaps/opaque,
+/turf/open/floor/plating{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"IS" = (
+/obj/machinery/conveyor{
+	dir = 6
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"NM" = (
+/obj/machinery/conveyor{
+	dir = 10
+	},
+/obj/structure/window/reinforced,
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"NP" = (
+/obj/machinery/conveyor{
+	dir = 5
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"QY" = (
+/obj/machinery/conveyor{
+	dir = 1
+	},
+/obj/item/supplypod_beacon,
+/turf/open/floor/plating{
+	planetary_atmos = 1
+	},
 /area/hangar)
 
 (1,1,1) = {"
@@ -1901,8 +1981,8 @@ ag
 "}
 (53,1,1) = {"
 aZ
-aZ
-aZ
+ag
+ag
 ag
 an
 an
@@ -1934,9 +2014,9 @@ ag
 "}
 (54,1,1) = {"
 aZ
-aZ
-aZ
 ag
+NP
+ay
 an
 an
 aJ
@@ -1967,9 +2047,9 @@ ag
 "}
 (55,1,1) = {"
 aZ
-aZ
-aZ
 ag
+ki
+zK
 an
 an
 aJ
@@ -1999,10 +2079,10 @@ an
 ag
 "}
 (56,1,1) = {"
-aZ
-aZ
-aZ
 ag
+ag
+ki
+zK
 an
 an
 aJ
@@ -2032,11 +2112,11 @@ an
 ag
 "}
 (57,1,1) = {"
-aZ
-aZ
-aZ
 ag
-an
+Bg
+IS
+NM
+vM
 aG
 aJ
 al
@@ -2065,9 +2145,9 @@ an
 ag
 "}
 (58,1,1) = {"
-aZ
-aZ
-aZ
+ag
+GK
+ag
 ag
 an
 an
@@ -2098,11 +2178,11 @@ an
 ag
 "}
 (59,1,1) = {"
-aZ
-aZ
-aZ
-vM
-ay
+ag
+lx
+QY
+ag
+an
 an
 aI
 aN

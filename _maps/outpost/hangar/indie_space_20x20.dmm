@@ -12,6 +12,15 @@
 	planetary_atmos = 1
 	},
 /area/hangar)
+"aj" = (
+/obj/machinery/conveyor{
+	dir = 1
+	},
+/obj/item/supplypod_beacon,
+/turf/open/floor/plating{
+	planetary_atmos = 1
+	},
+/area/hangar)
 "al" = (
 /obj/effect/turf_decal/trimline/opaque/yellow/filled/corner{
 	dir = 8
@@ -133,9 +142,10 @@
 	},
 /area/hangar)
 "aO" = (
-/obj/machinery/atmospherics/components/unary/passive_vent{
-	dir = 1
+/obj/machinery/conveyor{
+	dir = 9
 	},
+/obj/structure/window/reinforced,
 /turf/open/floor/plasteel{
 	planetary_atmos = 1
 	},
@@ -167,9 +177,52 @@
 	planetary_atmos = 1
 	},
 /area/hangar)
+"cQ" = (
+/obj/machinery/conveyor{
+	dir = 6
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
 "jk" = (
 /obj/effect/landmark/outpost/elevator,
 /turf/open/floor/plasteel/elevatorshaft{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"jB" = (
+/obj/machinery/conveyor/inverted{
+	dir = 5
+	},
+/obj/structure/plasticflaps/opaque,
+/turf/open/floor/plating{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"jJ" = (
+/obj/machinery/conveyor{
+	dir = 10
+	},
+/obj/structure/window/reinforced,
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"pU" = (
+/obj/machinery/conveyor{
+	dir = 5
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"qt" = (
+/obj/machinery/conveyor{
+	dir = 8
+	},
+/obj/structure/plasticflaps/opaque,
+/turf/open/floor/plating{
 	planetary_atmos = 1
 	},
 /area/hangar)
@@ -179,8 +232,35 @@
 	},
 /area/hangar)
 "rQ" = (
-/obj/machinery/atmospherics/pipe/simple/general,
-/turf/closed/indestructible/reinforced,
+/obj/machinery/conveyor{
+	dir = 8
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"tz" = (
+/obj/machinery/conveyor{
+	dir = 4
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"uq" = (
+/obj/machinery/conveyor/inverted{
+	dir = 6
+	},
+/obj/structure/plasticflaps/opaque,
+/turf/open/floor/plating{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"AZ" = (
+/obj/machinery/conveyor_switch/oneway,
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
 /area/hangar)
 
 (1,1,1) = {"
@@ -713,8 +793,8 @@ am
 "}
 (17,1,1) = {"
 aH
-aH
-aH
+am
+am
 am
 aZ
 az
@@ -746,9 +826,9 @@ am
 "}
 (18,1,1) = {"
 aH
-aH
-aH
 am
+pU
+aO
 aZ
 aZ
 aM
@@ -779,9 +859,9 @@ am
 "}
 (19,1,1) = {"
 aH
-aH
-aH
 am
+tz
+rQ
 aZ
 aZ
 av
@@ -811,10 +891,10 @@ aZ
 am
 "}
 (20,1,1) = {"
-aH
-aH
-aH
 am
+am
+tz
+rQ
 aZ
 aZ
 aM
@@ -844,11 +924,11 @@ aZ
 am
 "}
 (21,1,1) = {"
-aH
-aH
-aH
 am
-aZ
+jB
+cQ
+jJ
+AZ
 aZ
 aM
 aJ
@@ -877,9 +957,9 @@ aZ
 am
 "}
 (22,1,1) = {"
-aH
-aH
-aH
+am
+qt
+am
 am
 aZ
 az
@@ -910,11 +990,11 @@ aZ
 am
 "}
 (23,1,1) = {"
-aH
-aH
-aH
-rQ
-aO
+am
+uq
+aj
+am
+aZ
 aZ
 aM
 aJ

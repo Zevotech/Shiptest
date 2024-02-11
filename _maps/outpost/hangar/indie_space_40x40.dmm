@@ -154,9 +154,7 @@
 	},
 /area/hangar)
 "aY" = (
-/obj/machinery/atmospherics/components/unary/passive_vent{
-	dir = 1
-	},
+/obj/machinery/conveyor_switch/oneway,
 /turf/open/floor/plasteel{
 	planetary_atmos = 1
 	},
@@ -167,18 +165,100 @@
 /obj/structure/lattice/catwalk,
 /turf/open/floor/engine,
 /area/hangar)
+"do" = (
+/obj/machinery/conveyor{
+	dir = 1
+	},
+/obj/item/supplypod_beacon,
+/turf/open/floor/plating{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"ih" = (
+/obj/machinery/conveyor{
+	dir = 5
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
 "jY" = (
 /turf/open/floor/plasteel/elevatorshaft{
 	planetary_atmos = 1
 	},
 /area/hangar)
+"of" = (
+/obj/machinery/conveyor/inverted{
+	dir = 6
+	},
+/obj/structure/plasticflaps/opaque,
+/turf/open/floor/plating{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"yC" = (
+/obj/machinery/conveyor{
+	dir = 8
+	},
+/obj/structure/plasticflaps/opaque,
+/turf/open/floor/plating{
+	planetary_atmos = 1
+	},
+/area/hangar)
 "BE" = (
-/obj/machinery/atmospherics/pipe/simple/general,
-/turf/closed/indestructible/reinforced,
+/obj/machinery/conveyor{
+	dir = 9
+	},
+/obj/structure/window/reinforced,
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"FB" = (
+/obj/machinery/conveyor{
+	dir = 10
+	},
+/obj/structure/window/reinforced,
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"GZ" = (
+/obj/machinery/conveyor{
+	dir = 8
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
 /area/hangar)
 "JI" = (
 /obj/effect/landmark/outpost/elevator,
 /turf/open/floor/plasteel/elevatorshaft{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Lm" = (
+/obj/machinery/conveyor{
+	dir = 4
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"TL" = (
+/obj/machinery/conveyor/inverted{
+	dir = 5
+	},
+/obj/structure/plasticflaps/opaque,
+/turf/open/floor/plating{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Vq" = (
+/obj/machinery/conveyor{
+	dir = 6
+	},
+/turf/open/floor/plasteel{
 	planetary_atmos = 1
 	},
 /area/hangar)
@@ -2093,8 +2173,8 @@ aa
 "}
 (37,1,1) = {"
 au
-au
-au
+aa
+aa
 aa
 aT
 ay
@@ -2146,9 +2226,9 @@ aa
 "}
 (38,1,1) = {"
 au
-au
-au
 aa
+ih
+BE
 aT
 aT
 ah
@@ -2199,9 +2279,9 @@ aa
 "}
 (39,1,1) = {"
 au
-au
-au
 aa
+Lm
+GZ
 aT
 aT
 ax
@@ -2251,10 +2331,10 @@ aT
 aa
 "}
 (40,1,1) = {"
-au
-au
-au
 aa
+aa
+Lm
+GZ
 aT
 aT
 ah
@@ -2304,11 +2384,11 @@ aT
 aa
 "}
 (41,1,1) = {"
-au
-au
-au
 aa
-aT
+TL
+Vq
+FB
+aY
 aT
 ah
 aF
@@ -2357,9 +2437,9 @@ aT
 aa
 "}
 (42,1,1) = {"
-au
-au
-au
+aa
+yC
+aa
 aa
 aT
 ay
@@ -2410,11 +2490,11 @@ aT
 aa
 "}
 (43,1,1) = {"
-au
-au
-au
-BE
-aY
+aa
+of
+do
+aa
+aT
 aT
 ah
 aF
