@@ -80,17 +80,17 @@
 			to_chat(user, "<span class='alert'>[src] is already linked to [sb].</span>")
 	..()
 
-/obj/machinery/computer/cargo/express/proc/packin_up() // oh shit, I'm sorry
-	meme_pack_data = list() // sorry for what?
-	for(var/pack in SSshuttle.supply_packs) // our quartermaster taught us not to be ashamed of our supply packs
-		var/datum/supply_pack/P = SSshuttle.supply_packs[pack]  // specially since they're such a good price and all
-		if(!meme_pack_data[P.group]) // yeah, I see that, your quartermaster gave you good advice
-			meme_pack_data[P.group] = list( // it gets cheaper when I return it
-				"name" = P.group, // mmhm
-				"packs" = list()  // sometimes, I return it so much, I rip the manifest
-			) // see, my quartermaster taught me a few things too
-		if((P.hidden)) // like, how not to rip the manifest
-			continue// by using someone else's crate
+/obj/machinery/computer/cargo/express/proc/packin_up() 
+	meme_pack_data = list()
+	for(var/pack in SSshuttle.supply_packs)
+		var/datum/supply_pack/P = SSshuttle.supply_packs[pack]
+		if(!meme_pack_data[P.group])
+			meme_pack_data[P.group] = list(
+				"name" = P.group,
+				"packs" = list()
+			)
+		if((P.hidden))
+			continue
 		meme_pack_data[P.group]["packs"] += list(list(
 			"name" = P.name,
 			"cost" = P.cost,
