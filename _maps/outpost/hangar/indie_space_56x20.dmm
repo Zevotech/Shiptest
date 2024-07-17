@@ -176,7 +176,18 @@
 "aZ" = (
 /turf/template_noop,
 /area/template_noop)
-"ho" = (
+"bV" = (
+/obj/machinery/disposal/deliveryChute{
+	dir = 1
+	},
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"hz" = (
 /obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
@@ -191,12 +202,16 @@
 	planetary_atmos = 1
 	},
 /area/hangar)
-"it" = (
-/obj/structure/railing/corner{
-	dir = 1;
-	layer = 4.1
+"ji" = (
+/obj/machinery/conveyor/auto{
+	dir = 5;
+	operating = 1;
+	verted = -1
 	},
-/turf/open/floor/plasteel/tech/techmaint,
+/obj/structure/plasticflaps/opaque,
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
 /area/hangar)
 "jJ" = (
 /obj/effect/landmark/outpost/elevator,
@@ -204,8 +219,21 @@
 	planetary_atmos = 1
 	},
 /area/hangar)
-"kS" = (
-/obj/structure/chair,
+"kA" = (
+/obj/machinery/conveyor/auto{
+	dir = 8;
+	operating = 1
+	},
+/obj/structure/plasticflaps/opaque,
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"kR" = (
+/obj/structure/railing/corner{
+	dir = 1;
+	layer = 4.1
+	},
 /turf/open/floor/plasteel/tech/techmaint,
 /area/hangar)
 "lA" = (
@@ -231,8 +259,12 @@
 	planetary_atmos = 1
 	},
 /area/hangar)
-"qu" = (
-/obj/effect/turf_decal/industrial/hatch/yellow,
+"pT" = (
+/obj/machinery/conveyor/auto{
+	dir = 2;
+	operating = 1
+	},
+/obj/structure/plasticflaps/opaque,
 /turf/open/floor/plasteel{
 	planetary_atmos = 1
 	},
@@ -252,6 +284,12 @@
 	planetary_atmos = 1
 	},
 /area/hangar)
+"ry" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/closed/indestructible/reinforced,
+/area/hangar)
 "st" = (
 /obj/structure/catwalk/over/plated_catwalk,
 /obj/machinery/atmospherics/pipe/simple/orange/hidden{
@@ -260,6 +298,19 @@
 /turf/open/floor/plating{
 	planetary_atmos = 1
 	},
+/area/hangar)
+"uu" = (
+/obj/machinery/conveyor/auto{
+	dir = 10;
+	operating = 1
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"vB" = (
+/obj/effect/turf_decal/industrial/loading,
+/turf/open/floor/plasteel/tech/techmaint,
 /area/hangar)
 "vM" = (
 /obj/machinery/atmospherics/components/unary/portables_connector{
@@ -275,29 +326,44 @@
 	},
 /turf/open/floor/plasteel/tech/techmaint,
 /area/hangar)
-"wB" = (
-/obj/machinery/disposal/deliveryChute{
-	dir = 1
-	},
-/obj/structure/disposalpipe/trunk{
-	dir = 8
-	},
+"xG" = (
+/obj/machinery/computer/hydrogen_exchange,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/hangar)
+"zv" = (
+/obj/structure/sign/departments/cargo,
+/turf/closed/indestructible/reinforced,
+/area/hangar)
+"Am" = (
+/obj/effect/turf_decal/industrial/hatch/yellow,
 /turf/open/floor/plasteel{
 	planetary_atmos = 1
 	},
 /area/hangar)
-"xk" = (
+"Be" = (
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/hangar)
+"Bu" = (
 /obj/machinery/conveyor/auto{
-	dir = 8;
+	dir = 2;
 	operating = 1
 	},
 /turf/open/floor/plasteel{
 	planetary_atmos = 1
 	},
 /area/hangar)
-"xG" = (
-/obj/machinery/computer/hydrogen_exchange,
-/turf/open/floor/plasteel/tech/techmaint,
+"Dj" = (
+/obj/machinery/conveyor/auto{
+	dir = 6;
+	operating = 1;
+	verted = -1
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
 /area/hangar)
 "DF" = (
 /obj/effect/turf_decal/industrial/shutoff,
@@ -308,23 +374,16 @@
 	planetary_atmos = 1
 	},
 /area/hangar)
-"EB" = (
-/obj/structure/railing/corner{
-	dir = 4
-	},
-/turf/open/floor/plasteel/tech/techmaint,
-/area/hangar)
 "EZ" = (
 /obj/structure/railing/corner{
 	dir = 1
 	},
 /turf/open/floor/plasteel/tech/techmaint,
 /area/hangar)
-"Fe" = (
+"Go" = (
 /obj/machinery/conveyor/auto{
-	dir = 6;
-	operating = 1;
-	verted = -1
+	dir = 8;
+	operating = 1
 	},
 /turf/open/floor/plasteel{
 	planetary_atmos = 1
@@ -338,17 +397,6 @@
 	planetary_atmos = 1
 	},
 /area/hangar)
-"Id" = (
-/obj/machinery/conveyor/auto{
-	dir = 5;
-	operating = 1;
-	verted = -1
-	},
-/obj/structure/plasticflaps/opaque,
-/turf/open/floor/plasteel{
-	planetary_atmos = 1
-	},
-/area/hangar)
 "Jt" = (
 /obj/structure/catwalk/over/plated_catwalk,
 /obj/machinery/atmospherics/pipe/simple/orange/hidden{
@@ -358,31 +406,6 @@
 	planetary_atmos = 1
 	},
 /area/hangar)
-"JY" = (
-/obj/machinery/conveyor/auto{
-	dir = 8;
-	operating = 1
-	},
-/obj/structure/plasticflaps/opaque,
-/turf/open/floor/plasteel{
-	planetary_atmos = 1
-	},
-/area/hangar)
-"KS" = (
-/obj/machinery/conveyor/auto{
-	dir = 10;
-	operating = 1
-	},
-/turf/open/floor/plasteel{
-	planetary_atmos = 1
-	},
-/area/hangar)
-"KZ" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/closed/indestructible/reinforced,
-/area/hangar)
 "Ld" = (
 /obj/structure/catwalk/over/plated_catwalk,
 /obj/machinery/atmospherics/pipe/manifold4w/orange/hidden,
@@ -390,24 +413,15 @@
 	planetary_atmos = 1
 	},
 /area/hangar)
-"Mo" = (
-/obj/machinery/conveyor/auto{
-	dir = 2;
-	operating = 1
-	},
-/turf/open/floor/plasteel{
-	planetary_atmos = 1
-	},
+"Lq" = (
+/obj/structure/chair,
+/turf/open/floor/plasteel/tech/techmaint,
 /area/hangar)
 "MY" = (
 /obj/machinery/atmospherics/components/unary/hydrogen_pump{
 	dir = 4
 	},
 /obj/effect/turf_decal/industrial/outline/yellow,
-/turf/open/floor/plasteel/tech/techmaint,
-/area/hangar)
-"Na" = (
-/obj/effect/turf_decal/industrial/loading,
 /turf/open/floor/plasteel/tech/techmaint,
 /area/hangar)
 "Td" = (
@@ -448,20 +462,6 @@
 /obj/structure/catwalk/over/plated_catwalk,
 /obj/machinery/atmospherics/pipe/manifold/orange/hidden,
 /turf/open/floor/plating{
-	planetary_atmos = 1
-	},
-/area/hangar)
-"UR" = (
-/obj/structure/sign/departments/cargo,
-/turf/closed/indestructible/reinforced,
-/area/hangar)
-"UT" = (
-/obj/machinery/conveyor/auto{
-	dir = 2;
-	operating = 1
-	},
-/obj/structure/plasticflaps/opaque,
-/turf/open/floor/plasteel{
 	planetary_atmos = 1
 	},
 /area/hangar)
@@ -1898,8 +1898,8 @@ ag
 aZ
 aZ
 ag
-UR
-kS
+zv
+Lq
 Jt
 aJ
 aN
@@ -1931,8 +1931,8 @@ ag
 aZ
 aZ
 ag
-qu
-Na
+Am
+vB
 Jt
 aJ
 aN
@@ -1964,7 +1964,7 @@ ag
 aZ
 aZ
 ag
-xk
+Go
 mV
 Jt
 aJ
@@ -1997,7 +1997,7 @@ ag
 aZ
 aZ
 ag
-xk
+Go
 mV
 Jt
 aJ
@@ -2030,8 +2030,8 @@ ag
 ag
 ag
 ag
-xk
-EB
+Go
+Be
 Jt
 aJ
 aN
@@ -2061,9 +2061,9 @@ ag
 "}
 (49,1,1) = {"
 ag
-Id
-UT
-KS
+ji
+pT
+uu
 ay
 Jt
 aI
@@ -2094,10 +2094,10 @@ ag
 "}
 (50,1,1) = {"
 ag
-JY
+kA
 ag
-UR
-it
+zv
+kR
 Jt
 aJ
 aN
@@ -2127,8 +2127,8 @@ ag
 "}
 (51,1,1) = {"
 ag
-Fe
-ho
+Dj
+hz
 ag
 an
 Jt
@@ -2161,7 +2161,7 @@ ag
 (52,1,1) = {"
 ag
 ag
-KZ
+ry
 ag
 an
 Jt
@@ -2193,8 +2193,8 @@ ag
 "}
 (53,1,1) = {"
 ag
-Mo
-wB
+Bu
+bV
 ag
 an
 Jt
