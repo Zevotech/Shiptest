@@ -168,6 +168,12 @@
 	planetary_atmos = 1
 	},
 /area/hangar)
+"bl" = (
+/obj/effect/turf_decal/industrial/hatch/yellow,
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
 "ck" = (
 /turf/open/floor/plasteel/elevatorshaft{
 	planetary_atmos = 1
@@ -181,6 +187,12 @@
 /turf/open/floor/plasteel{
 	planetary_atmos = 1
 	},
+/area/hangar)
+"dR" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/closed/indestructible/reinforced,
 /area/hangar)
 "ec" = (
 /obj/effect/turf_decal/trimline/opaque/yellow/filled/warning{
@@ -222,6 +234,16 @@
 /obj/machinery/computer/hydrogen_exchange,
 /turf/open/floor/plasteel/tech/techmaint,
 /area/hangar)
+"jT" = (
+/obj/machinery/conveyor/auto{
+	dir = 2;
+	operating = 1
+	},
+/obj/structure/plasticflaps/opaque,
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
 "mh" = (
 /obj/structure/catwalk/over/plated_catwalk,
 /obj/machinery/atmospherics/pipe/manifold/orange/hidden,
@@ -244,6 +266,24 @@
 	dir = 4
 	},
 /turf/open/floor/plating{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"qH" = (
+/obj/structure/chair,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/hangar)
+"sm" = (
+/obj/effect/turf_decal/industrial/loading,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/hangar)
+"sF" = (
+/obj/machinery/conveyor/auto{
+	dir = 6;
+	operating = 1;
+	verted = -1
+	},
+/turf/open/floor/plasteel{
 	planetary_atmos = 1
 	},
 /area/hangar)
@@ -282,11 +322,46 @@
 	planetary_atmos = 1
 	},
 /area/hangar)
+"zE" = (
+/obj/machinery/disposal/deliveryChute{
+	dir = 1
+	},
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Ae" = (
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/obj/machinery/disposal/deliveryChute{
+	dir = 1
+	},
+/obj/machinery/conveyor/auto{
+	dir = 1;
+	operating = 1
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
 "AN" = (
 /obj/machinery/atmospherics/pipe/simple/orange/hidden{
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech/techmaint,
+/area/hangar)
+"DD" = (
+/obj/machinery/conveyor/auto{
+	dir = 2;
+	operating = 1
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
 /area/hangar)
 "GH" = (
 /obj/machinery/atmospherics/pipe/simple/orange/hidden{
@@ -306,9 +381,27 @@
 /area/hangar)
 "Lx" = (
 /obj/structure/railing/corner{
-	dir = 4;
-	layer = 4.1
+	dir = 4
 	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"LN" = (
+/obj/machinery/conveyor/auto{
+	dir = 8;
+	operating = 1
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"LS" = (
+/obj/machinery/conveyor/auto{
+	dir = 8;
+	operating = 1
+	},
+/obj/structure/plasticflaps/opaque,
 /turf/open/floor/plasteel{
 	planetary_atmos = 1
 	},
@@ -326,6 +419,30 @@
 	dir = 9
 	},
 /turf/open/floor/plating{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"OJ" = (
+/obj/structure/sign/departments/cargo,
+/turf/closed/indestructible/reinforced,
+/area/hangar)
+"Pu" = (
+/obj/machinery/conveyor/auto{
+	dir = 10;
+	operating = 1
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"PA" = (
+/obj/machinery/conveyor/auto{
+	dir = 5;
+	operating = 1;
+	verted = -1
+	},
+/obj/structure/plasticflaps/opaque,
+/turf/open/floor/plasteel{
 	planetary_atmos = 1
 	},
 /area/hangar)
@@ -365,6 +482,12 @@
 /turf/open/floor/plating{
 	planetary_atmos = 1
 	},
+/area/hangar)
+"XL" = (
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/techmaint,
 /area/hangar)
 
 (1,1,1) = {"
@@ -2649,9 +2772,9 @@ aH
 (44,1,1) = {"
 aV
 aV
-aV
 aH
-aN
+OJ
+qH
 qn
 aP
 aM
@@ -2702,9 +2825,9 @@ aH
 (45,1,1) = {"
 aV
 aV
-aV
 aH
-aN
+bl
+sm
 qn
 aP
 aM
@@ -2755,9 +2878,9 @@ aH
 (46,1,1) = {"
 aV
 aV
-aV
 aH
-aN
+LN
+vq
 qn
 aP
 aM
@@ -2808,9 +2931,9 @@ aH
 (47,1,1) = {"
 aV
 aV
-aV
 aH
-aN
+LN
+vq
 qn
 aP
 aE
@@ -2859,11 +2982,11 @@ aN
 aH
 "}
 (48,1,1) = {"
-aV
-aV
-aV
 aH
-aN
+aH
+aH
+LN
+XL
 qn
 aP
 aM
@@ -2912,11 +3035,11 @@ aN
 aH
 "}
 (49,1,1) = {"
-aV
-aV
-aV
 aH
-aN
+PA
+jT
+Pu
+at
 qn
 am
 aM
@@ -2965,11 +3088,11 @@ aN
 aH
 "}
 (50,1,1) = {"
-aV
-aV
-aV
 aH
-aN
+LS
+aH
+OJ
+Hd
 qn
 aP
 aM
@@ -3018,9 +3141,9 @@ aN
 aH
 "}
 (51,1,1) = {"
-aV
-aV
-aV
+aH
+sF
+Ae
 aH
 aN
 qn
@@ -3071,9 +3194,9 @@ aN
 aH
 "}
 (52,1,1) = {"
-aV
-aV
-aV
+aH
+aH
+dR
 aH
 aN
 qn
@@ -3124,9 +3247,9 @@ aN
 aH
 "}
 (53,1,1) = {"
-aV
-aV
-aV
+aH
+DD
+zE
 aH
 aN
 qn
@@ -3177,8 +3300,8 @@ aN
 aH
 "}
 (54,1,1) = {"
-aV
-aV
+aH
+aH
 aH
 aH
 Lx

@@ -196,6 +196,21 @@
 	planetary_atmos = 1
 	},
 /area/hangar)
+"eH" = (
+/obj/machinery/disposal/deliveryChute{
+	dir = 1
+	},
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"fI" = (
+/obj/effect/turf_decal/industrial/loading,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/hangar)
 "fT" = (
 /obj/effect/turf_decal/trimline/opaque/yellow/filled/warning,
 /obj/machinery/atmospherics/components/binary/valve/digital,
@@ -207,6 +222,12 @@
 /obj/machinery/computer/hydrogen_exchange,
 /turf/open/floor/plasteel/tech/techmaint,
 /area/hangar)
+"kK" = (
+/obj/effect/turf_decal/industrial/hatch/yellow,
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
 "kN" = (
 /obj/structure/catwalk/over/plated_catwalk,
 /obj/machinery/atmospherics/pipe/simple/orange/hidden{
@@ -215,6 +236,47 @@
 /turf/open/floor/plating{
 	planetary_atmos = 1
 	},
+/area/hangar)
+"lx" = (
+/obj/machinery/conveyor/auto{
+	dir = 8;
+	operating = 1
+	},
+/obj/structure/plasticflaps/opaque,
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"lK" = (
+/obj/machinery/conveyor/auto{
+	dir = 8;
+	operating = 1
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"lM" = (
+/obj/structure/railing/corner{
+	dir = 1;
+	layer = 4.1
+	},
+/turf/open/floor/plasteel/tech/techmaint,
+/area/hangar)
+"lU" = (
+/obj/machinery/conveyor/auto{
+	dir = 5;
+	operating = 1;
+	verted = -1
+	},
+/obj/structure/plasticflaps/opaque,
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"no" = (
+/obj/structure/sign/departments/cargo,
+/turf/closed/indestructible/reinforced,
 /area/hangar)
 "oo" = (
 /obj/structure/catwalk/over/plated_catwalk,
@@ -256,11 +318,48 @@
 	},
 /turf/open/floor/plasteel/tech/techmaint,
 /area/hangar)
+"zU" = (
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/obj/machinery/disposal/deliveryChute{
+	dir = 1
+	},
+/obj/machinery/conveyor/auto{
+	dir = 1;
+	operating = 1
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
 "AH" = (
 /obj/machinery/atmospherics/components/binary/volume_pump{
 	dir = 4
 	},
 /obj/effect/turf_decal/industrial/shutoff,
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"AX" = (
+/obj/structure/chair,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/hangar)
+"BR" = (
+/obj/machinery/conveyor/auto{
+	dir = 10;
+	operating = 1
+	},
+/turf/open/floor/plasteel{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"CX" = (
+/obj/machinery/conveyor/auto{
+	dir = 2;
+	operating = 1
+	},
 /turf/open/floor/plasteel{
 	planetary_atmos = 1
 	},
@@ -280,6 +379,16 @@
 	dir = 9
 	},
 /turf/open/floor/plating{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Ic" = (
+/obj/machinery/conveyor/auto{
+	dir = 2;
+	operating = 1
+	},
+/obj/structure/plasticflaps/opaque,
+/turf/open/floor/plasteel{
 	planetary_atmos = 1
 	},
 /area/hangar)
@@ -312,6 +421,16 @@
 /obj/structure/catwalk/over/plated_catwalk,
 /obj/machinery/atmospherics/pipe/manifold/orange/hidden,
 /turf/open/floor/plating{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"TK" = (
+/obj/machinery/conveyor/auto{
+	dir = 6;
+	operating = 1;
+	verted = -1
+	},
+/turf/open/floor/plasteel{
 	planetary_atmos = 1
 	},
 /area/hangar)
@@ -350,6 +469,12 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/tech/techmaint,
+/area/hangar)
+"Zs" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/closed/indestructible/reinforced,
 /area/hangar)
 
 (1,1,1) = {"
@@ -1246,9 +1371,9 @@ ab
 (28,1,1) = {"
 aP
 aP
-aP
 ab
-aj
+no
+AX
 aX
 aL
 aD
@@ -1279,9 +1404,9 @@ ab
 (29,1,1) = {"
 aP
 aP
-aP
 ab
-aj
+kK
+fI
 aX
 ai
 aD
@@ -1312,9 +1437,9 @@ ab
 (30,1,1) = {"
 aP
 aP
-aP
 ab
-aj
+lK
+Wp
 aX
 aL
 aD
@@ -1345,9 +1470,9 @@ ab
 (31,1,1) = {"
 aP
 aP
-aP
 ab
-aj
+lK
+Wp
 aX
 aL
 aD
@@ -1376,11 +1501,11 @@ aj
 ab
 "}
 (32,1,1) = {"
-aP
-aP
-aP
 ab
-aj
+ab
+ab
+lK
+XP
 aX
 aL
 aG
@@ -1409,11 +1534,11 @@ aj
 ab
 "}
 (33,1,1) = {"
-aP
-aP
-aP
 ab
-aj
+lU
+Ic
+BR
+av
 aX
 aL
 aD
@@ -1442,11 +1567,11 @@ aj
 ab
 "}
 (34,1,1) = {"
-aP
-aP
-aP
 ab
-aj
+lx
+ab
+no
+lM
 aX
 aL
 aD
@@ -1475,9 +1600,9 @@ aj
 ab
 "}
 (35,1,1) = {"
-aP
-aP
-aP
+ab
+TK
+zU
 ab
 aj
 aX
@@ -1508,9 +1633,9 @@ aj
 ab
 "}
 (36,1,1) = {"
-aP
-aP
-aP
+ab
+ab
+Zs
 ab
 aj
 aX
@@ -1541,9 +1666,9 @@ aj
 ab
 "}
 (37,1,1) = {"
-aP
-aP
-aP
+ab
+CX
+eH
 ab
 aj
 aX
@@ -1574,8 +1699,8 @@ aj
 ab
 "}
 (38,1,1) = {"
-aP
-aP
+ab
+ab
 ab
 ab
 Pk
