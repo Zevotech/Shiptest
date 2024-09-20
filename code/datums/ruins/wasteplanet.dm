@@ -27,3 +27,10 @@
 	description = "A military base formerly used for staging 4 exosuits and crew. God knows what's in it now."
 	id = "abandoned_mechbay"
 	suffix = "wasteplanet_abandoned_mechbay.dmm"
+
+/datum/map_template/ruin/wasteplanet/frontiersman_armory
+	name = "Frontiersman Weapons Manufacturing Facility"
+	description = "These well-armed pirates had to be getting their guns from somewhere. This fortified compound seems to run deep into the rock, and is likely responsible for supplying the sectors local brigands."
+	id = "frontiersman_armory"
+	suffix = "wasteplanet_frontiersman_armory.dmm"
+
