@@ -2,11 +2,57 @@
 "a" = (
 /turf/open/floor/plating/asteroid/wasteplanet,
 /area/overmap_encounter/planetoid/wasteplanet/explored)
+"b" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4;
+	color = "#808080"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
 "c" = (
 /turf/closed/wall,
 /area/overmap_encounter/planetoid/wasteplanet/explored)
+"d" = (
+/obj/effect/turf_decal/industrial/warning/corner{
+	color = "#808080";
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
 "e" = (
 /turf/closed/wall/concrete,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
+"f" = (
+/obj/structure/chair/e_chair,
+/turf/open/floor/pod/dark,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
+"g" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
+"h" = (
+/obj/structure/table/reinforced,
+/obj/item/modular_computer/laptop/preset/civilian/rilena{
+	pixel_y = 8
+	},
+/turf/open/floor/pod/dark,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
+"i" = (
+/obj/structure/rack,
+/obj/item/ammo_box/magazine/spitter_9mm{
+	pixel_x = -7
+	},
+/obj/item/ammo_box/magazine/spitter_9mm{
+	pixel_x = 4
+	},
+/turf/open/floor/pod/dark,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
+"j" = (
+/obj/effect/turf_decal/industrial/warning/corner{
+	color = "#808080"
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/overmap_encounter/planetoid/wasteplanet/explored)
 "k" = (
 /turf/open/floor/plating/rust/wasteplanet,
@@ -18,12 +64,101 @@
 "m" = (
 /turf/open/floor/plating/wasteplanet,
 /area/overmap_encounter/planetoid/wasteplanet/explored)
+"n" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8;
+	color = "#808080"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
+"o" = (
+/mob/living/simple_animal/hostile/human/frontier/ranged/officer/internals/neutered,
+/turf/open/floor/pod/dark,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
 "p" = (
 /obj/item/banner/command,
 /turf/open/floor/pod/dark,
 /area/overmap_encounter/planetoid/wasteplanet/explored)
+"q" = (
+/obj/item/kirbyplants{
+	icon_state = "plant-22";
+	pixel_x = -8
+	},
+/obj/item/paper/crumpled{
+	pixel_x = 11;
+	pixel_y = 10
+	},
+/obj/effect/decal/cleanable/ash{
+	pixel_y = 10;
+	pixel_x = -3
+	},
+/obj/effect/decal/cleanable/ash{
+	pixel_x = 7
+	},
+/turf/open/floor/pod/dark,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
+"r" = (
+/obj/effect/turf_decal/industrial/warning/corner{
+	color = "#808080";
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
+"s" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 8
+	},
+/turf/open/floor/pod/dark,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
+"t" = (
+/obj/structure/rack,
+/obj/item/ammo_box/c22lr_box{
+	pixel_x = -5;
+	pixel_y = 12
+	},
+/obj/item/ammo_box/c22lr_box{
+	pixel_x = 7;
+	pixel_y = 11
+	},
+/obj/item/ammo_box/c9mm{
+	pixel_x = -5
+	},
+/obj/item/ammo_box/c9mm{
+	pixel_x = 7;
+	pixel_y = -1
+	},
+/turf/open/floor/pod/dark,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
 "u" = (
 /turf/closed/wall/r_wall/rust/yesdiag,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
+"v" = (
+/obj/machinery/suit_storage_unit/inherit/industrial,
+/obj/item/clothing/suit/space/hardsuit/security/independent/frontier,
+/obj/item/clothing/mask/gas/sechailer,
+/obj/item/tank/internals/oxygen/red,
+/turf/open/floor/pod/dark,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
+"w" = (
+/obj/structure/rack,
+/obj/item/ammo_box/magazine/c22lr_pounder_pan{
+	pixel_y = 2
+	},
+/obj/item/storage/belt/security/military/frontiersmen{
+	pixel_y = -4
+	},
+/obj/item/ammo_box/magazine/c22lr_pounder_pan{
+	pixel_y = 11
+	},
+/turf/open/floor/pod/dark,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
+"x" = (
+/obj/item/kirbyplants{
+	icon_state = "plant-25";
+	pixel_y = 18;
+	pixel_x = -7
+	},
+/turf/open/floor/pod/dark,
 /area/overmap_encounter/planetoid/wasteplanet/explored)
 "y" = (
 /turf/closed/mineral/random/wasteplanet,
@@ -36,27 +171,143 @@
 /area/overmap_encounter/planetoid/wasteplanet/explored)
 "B" = (
 /obj/structure/table,
+/obj/item/reagent_containers/glass/bowl/mushroom_bowl{
+	name = "ash tray";
+	desc = "An ash tray for holding used cigarettes.";
+	pixel_y = 3
+	},
+/obj/item/cigbutt{
+	pixel_y = 8;
+	pixel_x = -2
+	},
+/obj/item/cigbutt{
+	pixel_y = 10;
+	pixel_x = 5
+	},
+/obj/item/clothing/mask/cigarette/robust{
+	pixel_y = 16
+	},
 /turf/open/floor/pod/dark,
 /area/overmap_encounter/planetoid/wasteplanet/explored)
 "C" = (
 /turf/open/floor/pod/light,
 /area/overmap_encounter/planetoid/wasteplanet/explored)
+"D" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 10;
+	color = "#808080"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
+"E" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 6;
+	color = "#808080"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
+"F" = (
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/spray/cleaner{
+	pixel_x = -7;
+	pixel_y = 4
+	},
+/obj/item/attachment/foldable_stock/spitter{
+	pixel_x = -3;
+	pixel_y = 11
+	},
+/obj/item/stack/ore/salvage/scraptitanium{
+	pixel_x = 8;
+	pixel_y = -2
+	},
+/turf/open/floor/pod/dark,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
+"G" = (
+/obj/structure/guncloset{
+	pixel_y = 6
+	},
+/obj/item/gun/ballistic/automatic/smg/pounder,
+/obj/item/gun/ballistic/automatic/pistol/spitter,
+/obj/structure/window/reinforced/spawner,
+/turf/open/floor/pod/dark,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
+"H" = (
+/obj/structure/chair/office{
+	dir = 1
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 9;
+	color = "#808080"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
 "I" = (
 /turf/open/floor/pod,
 /area/overmap_encounter/planetoid/wasteplanet/explored)
+"J" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 6;
+	color = "#808080"
+	},
+/obj/structure/chair/office,
+/turf/open/floor/mineral/plastitanium,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
 "K" = (
-/obj/item/gun/ballistic/shotgun/doublebarrel/brazil/death,
-/turf/open/floor/pod/dark,
+/turf/open/floor/mineral/plastitanium,
 /area/overmap_encounter/planetoid/wasteplanet/explored)
 "L" = (
 /obj/effect/turf_decal/dept/bar,
 /turf/open/floor/pod/dark,
 /area/overmap_encounter/planetoid/wasteplanet/explored)
+"M" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 5;
+	color = "#808080"
+	},
+/mob/living/simple_animal/hostile/human/frontier/ranged/trooper/heavy{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
 "N" = (
+/turf/open/floor/pod/dark,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
+"O" = (
+/obj/machinery/computer/camera_advanced,
+/obj/item/toy/plush/rilena{
+	pixel_y = 18
+	},
+/turf/open/floor/pod/dark,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
+"P" = (
+/obj/structure/table/reinforced,
+/obj/item/attachment/laser_sight{
+	pixel_x = 6;
+	pixel_y = 12
+	},
+/obj/item/stack/tape/industrial{
+	pixel_x = -6;
+	pixel_y = -1
+	},
+/obj/item/cigbutt{
+	pixel_x = -7;
+	pixel_y = 17
+	},
+/obj/item/cigbutt{
+	pixel_x = -11;
+	pixel_y = 14
+	},
+/obj/item/storage/fancy/cigarettes/cigpack_robust{
+	pixel_x = 11;
+	pixel_y = -1
+	},
 /turf/open/floor/pod/dark,
 /area/overmap_encounter/planetoid/wasteplanet/explored)
 "Q" = (
 /obj/structure/chair/bench/olive/directional/west,
+/mob/living/simple_animal/hostile/human/frontier/ranged/neutered{
+	dir = 8
+	},
 /turf/open/floor/pod/dark,
 /area/overmap_encounter/planetoid/wasteplanet/explored)
 "R" = (
@@ -72,6 +323,47 @@
 /area/overmap_encounter/planetoid/wasteplanet/explored)
 "U" = (
 /turf/closed/wall/rust,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
+"V" = (
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/glass/rag{
+	pixel_y = 5;
+	pixel_x = 6
+	},
+/obj/item/screwdriver/nuke{
+	pixel_x = -6;
+	pixel_y = -2
+	},
+/obj/item/weaponcrafting/receiver{
+	pixel_x = -8;
+	pixel_y = 8
+	},
+/obj/item/attachment/silencer{
+	pixel_x = 9;
+	pixel_y = 11
+	},
+/turf/open/floor/pod/dark,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
+"W" = (
+/obj/effect/turf_decal/industrial/warning/corner{
+	color = "#808080";
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
+"X" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 9;
+	color = "#808080"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/overmap_encounter/planetoid/wasteplanet/explored)
+"Y" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 5;
+	color = "#808080"
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/overmap_encounter/planetoid/wasteplanet/explored)
 "Z" = (
 /obj/effect/turf_decal/dept/cargo,
@@ -430,9 +722,9 @@ a
 a
 a
 e
-u
-u
-u
+g
+g
+g
 e
 a
 a
@@ -470,7 +762,7 @@ e
 e
 N
 N
-N
+u
 N
 N
 e
@@ -482,7 +774,7 @@ e
 e
 e
 e
-N
+x
 Q
 B
 e
@@ -529,10 +821,10 @@ N
 e
 k
 k
-T
+u
 N
 N
-T
+u
 N
 N
 N
@@ -581,10 +873,10 @@ N
 e
 k
 k
-T
+u
 N
 N
-T
+u
 N
 N
 N
@@ -625,9 +917,9 @@ e
 e
 e
 e
-T
+u
 e
-T
+u
 e
 e
 e
@@ -949,8 +1241,8 @@ y
 e
 e
 e
-N
-N
+u
+u
 e
 e
 y
@@ -1026,8 +1318,8 @@ e
 e
 e
 e
-T
-T
+u
+u
 e
 e
 y
@@ -1092,11 +1384,11 @@ k
 k
 e
 e
-T
+u
 e
 e
 e
-T
+u
 e
 e
 y
@@ -1509,9 +1801,9 @@ y
 y
 A
 A
-N
-N
-N
+w
+t
+i
 A
 A
 T
@@ -1560,11 +1852,11 @@ y
 y
 A
 A
-N
-N
-N
-N
-N
+v
+X
+n
+D
+q
 A
 A
 k
@@ -1611,13 +1903,13 @@ y
 y
 y
 A
-N
-N
-N
+O
+H
+r
 K
-N
-N
-N
+d
+D
+F
 A
 k
 k
@@ -1663,13 +1955,13 @@ y
 y
 y
 A
-N
-N
-N
-N
-N
-N
-N
+h
+M
+W
+K
+j
+J
+V
 A
 T
 T
@@ -1716,11 +2008,11 @@ y
 y
 A
 A
-N
-N
-N
-N
-N
+G
+Y
+b
+E
+P
 A
 A
 y
@@ -1769,9 +2061,9 @@ y
 y
 A
 A
-N
-N
-N
+s
+s
+s
 A
 A
 y
@@ -1806,8 +2098,8 @@ y
 y
 y
 e
-T
-T
+u
+u
 e
 y
 e
@@ -1821,9 +2113,9 @@ y
 y
 y
 A
-T
-T
-T
+u
+u
+u
 A
 y
 y
@@ -1980,7 +2272,7 @@ e
 C
 C
 C
-T
+u
 C
 C
 C
@@ -2032,7 +2324,7 @@ e
 e
 C
 C
-T
+u
 C
 C
 C
@@ -2191,8 +2483,8 @@ y
 y
 y
 e
-T
-T
+u
+u
 e
 y
 y
@@ -2325,8 +2617,8 @@ y
 y
 e
 e
-T
-T
+u
+u
 e
 e
 y
@@ -2334,8 +2626,8 @@ y
 y
 e
 e
-T
-T
+u
+u
 e
 e
 y
@@ -2500,11 +2792,11 @@ y
 y
 e
 e
-T
-T
-T
-T
-T
+u
+u
+u
+u
+u
 e
 e
 e
@@ -2541,10 +2833,10 @@ e
 y
 e
 N
-N
+o
 N
 p
-N
+o
 N
 e
 y
@@ -2561,7 +2853,7 @@ e
 a
 a
 e
-N
+f
 N
 Z
 N
@@ -2604,11 +2896,11 @@ y
 y
 a
 e
-T
-T
-T
-T
-T
+u
+u
+u
+u
+u
 e
 a
 a
