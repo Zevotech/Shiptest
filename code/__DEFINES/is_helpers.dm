@@ -8,6 +8,8 @@
 
 #define isweakref(D) (istype(D, /datum/weakref))
 
+#define isgenerator(A) (istype(A, /generator))
+
 //Turfs
 //#define isturf(A) (istype(A, /turf)) This is actually a byond built-in. Added here for completeness sake.
 
@@ -72,7 +74,7 @@ GLOBAL_LIST_INIT(turfs_without_ground, typecacheof(list(
 #define iszombie(A) (is_species(A, /datum/species/zombie))
 #define isskeleton(A) (is_species(A, /datum/species/skeleton))
 #define ismoth(A) (is_species(A, /datum/species/moth))
-#define ishumanbasic(A) (is_species(A, /datum/species/human) && !is_species(A, /datum/species/human/krokodil_addict))
+#define ishumanbasic(A) (is_species(A, /datum/species/human))
 #define iselzuose(A) (is_species(A, /datum/species/elzuose))
 #define isvampire(A) (is_species(A,/datum/species/vampire))
 #define isdullahan(A) (is_species(A, /datum/species/dullahan))
@@ -97,8 +99,6 @@ GLOBAL_LIST_INIT(turfs_without_ground, typecacheof(list(
 #define isalienroyal(A) (istype(A, /mob/living/carbon/alien/humanoid/royal))
 
 #define isalienqueen(A) (istype(A, /mob/living/carbon/alien/humanoid/royal/queen))
-
-#define istruedevil(A) (istype(A, /mob/living/carbon/true_devil))
 
 //Silicon mobs
 #define issilicon(A) (istype(A, /mob/living/silicon))
@@ -136,15 +136,9 @@ GLOBAL_LIST_INIT(turfs_without_ground, typecacheof(list(
 
 #define ishostile(A) (istype(A, /mob/living/simple_animal/hostile))
 
-#define isswarmer(A) (istype(A, /mob/living/simple_animal/hostile/swarmer))
-
-#define isguardian(A) (istype(A, /mob/living/simple_animal/hostile/guardian))
-
 #define isconstruct(A) (istype(A, /mob/living/simple_animal/hostile/construct))
 
 #define ismegafauna(A) (istype(A, /mob/living/simple_animal/hostile/megafauna))
-
-#define isclown(A) (istype(A, /mob/living/simple_animal/hostile/retaliate/clown))
 
 #define isborer(A) (istype(A, /mob/living/simple_animal/borer))
 
@@ -155,8 +149,6 @@ GLOBAL_LIST_INIT(turfs_without_ground, typecacheof(list(
 
 #define isnewplayer(A) (istype(A, /mob/dead/new_player))
 
-#define isovermind(A) (istype(A, /mob/camera/blob))
-
 #define iscameramob(A) (istype(A, /mob/camera))
 
 #define isaicamera(A) (istype(A, /mob/camera/aiEye))
@@ -165,6 +157,8 @@ GLOBAL_LIST_INIT(turfs_without_ground, typecacheof(list(
 #define isobj(A) istype(A, /obj) //override the byond proc because it returns true on children of /atom/movable that aren't objs
 
 #define isitem(A) (istype(A, /obj/item))
+
+#define isstack(A) (istype(A, /obj/item/stack))
 
 #define isgrenade(A) (istype(A, /obj/item/grenade))
 
@@ -226,8 +220,6 @@ GLOBAL_LIST_INIT(glass_sheet_types, typecacheof(list(
 #define is_glass_sheet(O) (is_type_in_typecache(O, GLOB.glass_sheet_types))
 
 #define iseffect(O) (istype(O, /obj/effect))
-
-#define isblobmonster(O) (istype(O, /mob/living/simple_animal/hostile/blob))
 
 #define isshuttleturf(T) (length(T.baseturfs) && (/turf/baseturf_skipover/shuttle in T.baseturfs))
 
