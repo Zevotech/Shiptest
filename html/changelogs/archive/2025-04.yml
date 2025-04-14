@@ -124,6 +124,7 @@
   Apogee-dev:
   - bugfix: 10mm and 9mm cartridges now use the proper metric name format
   - bugfix: 6.5mm CLIP renamed to 7.5x64mm CLIP
+<<<<<<< HEAD
 2025-04-11:
   generalthrax:
   - bugfix: Sweet Potato repathed letting you make yaki imo properly
@@ -156,3 +157,5 @@
   - rscadd: added medical area to rock outpost
   - rscadd: potted plants to rock outpost
   - rscadd: altered bounty pad locations
+=======
+>>>>>>> parent of 7d950afb6c (Automatic changelog compile [ci skip])
